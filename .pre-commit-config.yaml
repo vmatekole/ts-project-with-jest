@@ -1,0 +1,9 @@
+repos:
+  # - repo: ...
+
+  - repo: https://github.com/compilerla/conventional-pre-commit
+    rev: 07fd005
+    hooks:
+      - id: conventional-pre-commit
+        stages: [commit-msg]
+        args: []
